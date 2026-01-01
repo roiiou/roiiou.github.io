@@ -18,7 +18,7 @@
 <meta property="og:description" content="这里是我的个人知识库导航。点击标题进入查看完整地图。">
 <meta property="og:locale" content="zh_CN">
 <meta property="article:published_time" content="2026-01-01T12:00:00.000Z">
-<meta property="article:modified_time" content="2026-01-01T10:28:42.943Z">
+<meta property="article:modified_time" content="2026-01-01T11:16:03.669Z">
 <meta property="article:author" content="roiiou">
 <meta name="twitter:card" content="summary">
     <meta http-equiv="Cache-control" content="no-cache">
@@ -377,7 +377,7 @@
 
                 <!-- 文章字数统计 -->
                     <div class="post-intro-read">
-                        <span>字数统计: <span class="post-count word-count">85</span>阅读时长: <span class="post-count reading-time">1 min</span></span>
+                        <span>字数统计: <span class="post-count word-count">252</span>阅读时长: <span class="post-count reading-time">1 min</span></span>
                     </div>
                 <div class="post-intro-meta">
                     <!-- 撰写日期 -->
@@ -546,6 +546,23 @@
 <blockquote>
 <p>💡 提示：这是一个 MOC (Map of Content) 页面，我会持续更新这里的链接，使其成为我博客的索引。</p>
 </blockquote>
+<h2 id="MOC页面导航"><a href="#MOC页面导航" class="headerlink" title="MOC页面导航"></a>MOC页面导航</h2><ul>
+<li>🍞<span style="color: #cc0000; cursor: not-allowed;" title="Page not created yet">基础理论</span></li>
+<li>🌴<span style="color: #cc0000; cursor: not-allowed;" title="Page not created yet">技术学习</span></li>
+<li>🌎<span style="color: #cc0000; cursor: not-allowed;" title="Page not created yet">项目实战</span></li>
+<li>🍋<span style="color: #cc0000; cursor: not-allowed;" title="Page not created yet">工具技巧</span></li>
+<li>🎯<span style="color: #cc0000; cursor: not-allowed;" title="Page not created yet">问题记录</span></li>
+<li>🌵<span style="color: #cc0000; cursor: not-allowed;" title="Page not created yet">标签汇总</span></li>
+</ul>
+<hr>
+<h2 id="最近更新"><a href="#最近更新" class="headerlink" title="最近更新"></a>最近更新</h2><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br></pre></td><td class="code"><pre><span class="line">TABLE</span><br><span class="line">length(file.outlinks) AS &quot;链接数&quot;,</span><br><span class="line">choice(status = &quot;已完成&quot;, &quot;✅&quot;, choice(status = &quot;进行中&quot;, &quot;🔄&quot;, choice(status = &quot;待开始&quot;, &quot;⏳&quot;, &quot;📄&quot;))) + &quot; &quot; + status AS &quot;状态&quot;,</span><br><span class="line">dateformat(file.mtime, &quot;yyyy-MM-dd HH:mm&quot;) AS &quot;修改时间&quot;</span><br><span class="line">FROM &quot;&quot;</span><br><span class="line">WHERE file.name != &quot;HOME&quot; AND file.name != &quot;今日待办&quot;</span><br><span class="line">SORT file.mtime DESC</span><br><span class="line">LIMIT 10</span><br></pre></td></tr></table></figure>
+
+<hr>
+<h3 id="快捷待办"><a href="#快捷待办" class="headerlink" title="快捷待办"></a>快捷待办</h3><ul>
+<li><input checked="" disabled="" type="checkbox"> yolo训练部署</li>
+<li><input checked="" disabled="" type="checkbox"> 海思系统移植</li>
+</ul>
+<h3 id="日期计划"><a href="#日期计划" class="headerlink" title="日期计划"></a>日期计划</h3><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br></pre></td><td class="code"><pre><span class="line">await dv.view(&quot;日历&quot;, &#123;</span><br><span class="line">    pages: &quot;&quot;,</span><br><span class="line">    view: &quot;month&quot;,</span><br><span class="line">    firstDayOfWeek: &quot;1&quot;,</span><br><span class="line">    options: &quot;style4 noLayer noFilename colorField:task.color&quot;</span><br><span class="line">&#125;)</span><br><span class="line"></span><br></pre></td></tr></table></figure>
 
     </article>
     <!-- license -->
@@ -555,8 +572,8 @@
         </li>
         <li class="previous">
                 <div class="prevSlogan">Previous Post</div>
-                <a href="/2026/01/01/article-layout-guide/" title="文章排版与配置指南">
-                    <div class="prevTitle">文章排版与配置指南</div>
+                <a href="/2026/01/01/hello-world/" title="Hello World">
+                    <div class="prevTitle">Hello World</div>
                 </a>
         </li>
     </ul>
@@ -611,7 +628,7 @@
                 <div class="toc-catalog">
                     <span class="iconfont-archer catalog-icon">&#xe613;</span><span>CATALOG</span>
                 </div>
-                <ol class="toc"><li class="toc-item toc-level-1"><a class="toc-link" href="#%E6%AC%A2%E8%BF%8E%E6%9D%A5%E5%88%B0%E6%88%91%E7%9A%84%E7%9F%A5%E8%AF%86%E8%8A%B1%E5%9B%AD-%F0%9F%8C%B1"><span class="toc-number">1.</span> <span class="toc-text">欢迎来到我的知识花园 🌱</span></a><ol class="toc-child"><li class="toc-item toc-level-2"><a class="toc-link" href="#%F0%9F%9A%80-%E5%BF%AB%E9%80%9F%E5%85%A5%E5%8F%A3"><span class="toc-number">1.1.</span> <span class="toc-text">🚀 快速入口</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#%F0%9F%93%82-%E6%AD%A3%E5%9C%A8%E8%BF%9B%E8%A1%8C%E7%9A%84%E7%B3%BB%E5%88%97"><span class="toc-number">1.2.</span> <span class="toc-text">📂 正在进行的系列</span></a></li></ol></li></ol>
+                <ol class="toc"><li class="toc-item toc-level-1"><a class="toc-link" href="#%E6%AC%A2%E8%BF%8E%E6%9D%A5%E5%88%B0%E6%88%91%E7%9A%84%E7%9F%A5%E8%AF%86%E8%8A%B1%E5%9B%AD-%F0%9F%8C%B1"><span class="toc-number">1.</span> <span class="toc-text">欢迎来到我的知识花园 🌱</span></a><ol class="toc-child"><li class="toc-item toc-level-2"><a class="toc-link" href="#%F0%9F%9A%80-%E5%BF%AB%E9%80%9F%E5%85%A5%E5%8F%A3"><span class="toc-number">1.1.</span> <span class="toc-text">🚀 快速入口</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#%F0%9F%93%82-%E6%AD%A3%E5%9C%A8%E8%BF%9B%E8%A1%8C%E7%9A%84%E7%B3%BB%E5%88%97"><span class="toc-number">1.2.</span> <span class="toc-text">📂 正在进行的系列</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#MOC%E9%A1%B5%E9%9D%A2%E5%AF%BC%E8%88%AA"><span class="toc-number">1.3.</span> <span class="toc-text">MOC页面导航</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#%E6%9C%80%E8%BF%91%E6%9B%B4%E6%96%B0"><span class="toc-number">1.4.</span> <span class="toc-text">最近更新</span></a><ol class="toc-child"><li class="toc-item toc-level-3"><a class="toc-link" href="#%E5%BF%AB%E6%8D%B7%E5%BE%85%E5%8A%9E"><span class="toc-number">1.4.1.</span> <span class="toc-text">快捷待办</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#%E6%97%A5%E6%9C%9F%E8%AE%A1%E5%88%92"><span class="toc-number">1.4.2.</span> <span class="toc-text">日期计划</span></a></li></ol></li></ol></li></ol>
             </div>
         <!-- sidebar -->
         <div class="sidebar sidebar-hide">
@@ -641,11 +658,11 @@
         </li>
         <li class="archive-post-item">
             <span class="archive-post-date">01/01</span>
-            <a class="archive-post-title" href="/2026/01/01/article-layout-guide/">文章排版与配置指南</a>
+            <a class="archive-post-title" href="/2026/01/01/hello-world/">Hello World</a>
         </li>
         <li class="archive-post-item">
             <span class="archive-post-date">01/01</span>
-            <a class="archive-post-title" href="/2026/01/01/hello-world/">Hello World</a>
+            <a class="archive-post-title" href="/2026/01/01/article-layout-guide/">文章排版与配置指南</a>
         </li>
             </ul>
     </div>
